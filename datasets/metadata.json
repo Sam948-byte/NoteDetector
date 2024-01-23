@@ -1,0 +1,1 @@
+{"folderName": "v0er", "classes": ["note"], "testImageCount": 942, "trainImageCount": 20029, "validImageCount": 2013, "totalImageCount": 22984, "testAnnotationCount": 1619, "trainAnnotationCount": 29627, "validAnnotationCount": 3528, "totalAnnotationCount": 34774, "zipSize": 1405866704, "datasetType": "COCO", "uploadName": "FRC2024COCONO"}
