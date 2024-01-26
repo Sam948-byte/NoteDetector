@@ -1,1 +1,0 @@
-{"folderName": "pd3g", "classes": ["note"], "testImageCount": 1056, "trainImageCount": 22551, "validImageCount": 2237, "totalImageCount": 25844, "testAnnotationCount": 1795, "trainAnnotationCount": 34518, "validAnnotationCount": 3898, "totalAnnotationCount": 40211, "zipSize": 1529529595, "datasetType": "COCO", "uploadName": "FRC2024COCONO"}

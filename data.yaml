@@ -1,5 +1,13 @@
-names:
-  0: note
-test: test
-train: train
-val: valid
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['note', 'robot']
+
+roboflow:
+  workspace: 2024massnotedataset
+  project: notefindermassdataset
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/2024massnotedataset/notefindermassdataset/dataset/3
