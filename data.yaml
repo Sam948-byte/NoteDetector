@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 2
-names: ['note', 'robot']
+names: ['note', robot]
 
 roboflow:
   workspace: 2024massnotedataset
