@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
-model = YOLO('best.pt')
+model = YOLO('scripts/best.pt')
 
 # Open the video file
 video_source = "videos/2024 Field Tour Video_ Source.mp4"
