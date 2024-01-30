@@ -3,7 +3,8 @@ from ultralytics import YOLO
 
 # Load the YOLOv8 model
 #v7 es malo
-model = YOLO('scripts/v13.pt')
+# model = YOLO('scripts/v13.pt')
+model = YOLO('scripts/final.pt')
 # model = YOLO('scripts/datasetN.pt')
 # model = YOLO('scripts/datasetS.pt')
 
@@ -22,8 +23,8 @@ while cap.isOpened():
         results = model(frame)
         
         # rename to note due to wrong labeling
-        for result in results:
-            result.names[1] = "note"
+        # for result in results:
+        #     result.names[1] = "note"
 
         # Visualize the results on the frame
         annotated_frame = results[0].plot()
