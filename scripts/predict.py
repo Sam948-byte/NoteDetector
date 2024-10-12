@@ -3,14 +3,14 @@ from ultralytics import YOLO
 
 # Load the YOLOv8 model
 #v7 es malo
-# model = YOLO('scripts/v13.pt')
-model = YOLO('scripts/final.pt')
-# model = YOLO('scripts/datasetN.pt')
-# model = YOLO('scripts/datasetS.pt')
+# model = YOLO('models/v13.pt')
+model = YOLO('models/final.pt')
+# model = YOLO('models/datasetN.pt')
+# model = YOLO('models/datasetS.pt')
 
 # Open the video file
-# video = "videos/2024 Field Tour Video_ Source.mp4"
-video = "videos/2024 Field Tour Video_ Speaker.mp4"
+video = "videos/2024 Field Tour Video_ Source.mp4"
+# video = "videos/2024 Field Tour Video_ Speaker.mp4"
 cap = cv2.VideoCapture(video)
 
 # Loop through the video frames
